@@ -41,6 +41,7 @@ final class HeaderView: UIView {
     
     func setupView() {
         addSubview(subHeadLineLabel)
+        addSubview(headingLabel)
         
         setupConstraints()
     }
@@ -50,6 +51,12 @@ final class HeaderView: UIView {
             subHeadLineLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
             subHeadLineLabel.topAnchor.constraint(equalTo: headingLabel.bottomAnchor, constant: 20),
             subHeadLineLabel.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            headingLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            headingLabel.topAnchor.constraint(equalTo: subHeadLineLabel.bottomAnchor, constant: 8),
+            headingLabel.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
         
     }

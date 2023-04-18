@@ -19,7 +19,6 @@ final class ShadowImageView : UIView {
         v.contentMode = .scaleAspectFit
         v.layer.cornerRadius = 20
         v.clipsToBounds = true
-        
         return v
     }()
     
@@ -31,7 +30,6 @@ final class ShadowImageView : UIView {
         v.layer.shadowOffset = CGSize(width: 5, height: 5)
         v.layer.shadowOpacity = 0.7
         v.layer.shadowRadius = 10.0
-        
         return v
     }()
     

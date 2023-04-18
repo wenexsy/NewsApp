@@ -81,8 +81,6 @@
 				122C74E62965C97D00D791F7 /* Assets.xcassets */,
 				122C74E82965C97D00D791F7 /* LaunchScreen.storyboard */,
 				122C74EB2965C97D00D791F7 /* Info.plist */,
-				12CA539D2975726F00CB6CC6 /* ShadowImageView.swift */,
-				12CA539F2975831C00CB6CC6 /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -123,6 +121,8 @@
 		1278D93729ED7CF2007C2DA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				12CA539D2975726F00CB6CC6 /* ShadowImageView.swift */,
+				12CA539F2975831C00CB6CC6 /* NewsTableViewCell.swift */,
 				12CA539B2975680C00CB6CC6 /* HeaderView.swift */,
 			);
 			path = Views;
