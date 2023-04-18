@@ -24,6 +24,8 @@ final class HeaderView: UIView {
         super.init(frame: .zero)
         translatesAutoresizingMaskIntoConstraints = false
         setupView()
+        
+        
     }
     
     private lazy var subHeadLineLabel: UILabel = {
